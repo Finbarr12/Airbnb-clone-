@@ -1,16 +1,16 @@
 {
   "expo": {
-    "name": "Airbnb",
+    "name": "Finzi Book",
     "slug": "Airbnb",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/androidlogo.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/images/finzi.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "white"
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
