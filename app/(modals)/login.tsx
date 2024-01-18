@@ -19,11 +19,20 @@ const login = () => {
       <Text style={{ marginTop: 20 }}>
         Already have an account? <Text style={{ color: "blue" }}>Sign in</Text>
       </Text>
+      <Text>
+        <Text style={styles.line}></Text> <Text>Or</Text>{" "}
+        <Text style={styles.line}></Text>
+      </Text>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
+  line: {
+    width: 10,
+    height: 2,
+    backgroundColor: "black",
+  },
   container: {
     flex: 1,
     padding: 20,
