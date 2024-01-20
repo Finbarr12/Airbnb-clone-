@@ -3,6 +3,7 @@ import React from "react";
 import { Link, Stack } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
 import ExploreHeader from "../../components/ExploreHeader";
+import ExploreBody from "../../components/ExploreBody";
 
 const index = () => {
   return (
@@ -12,6 +13,7 @@ const index = () => {
           header: () => <ExploreHeader />,
         }}
       />
+      <ExploreBody />
     </View>
   );
 };
