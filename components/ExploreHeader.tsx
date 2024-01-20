@@ -9,7 +9,12 @@ const ExploreHeader = () => {
       <View style={{ marginTop: 20 }}>
         <View style={{ flexDirection: "row", alignItems: "center" }}>
           <View style={styles.inpHold}>
-            <EvilIcons name="search" size={34} color="black" />
+            <EvilIcons
+              name="search"
+              size={34}
+              color="black"
+              style={{ marginLeft: 10 }}
+            />
             <TextInput style={styles.inputText} />
           </View>
           <View style={styles.circle}>
@@ -24,7 +29,7 @@ const ExploreHeader = () => {
 const styles = StyleSheet.create({
   inputText: {
     flex: 1,
-    backgroundColor: "white",
+    backgroundColor: "transparent",
     height: "100%",
   },
   inpHold: {
@@ -32,10 +37,12 @@ const styles = StyleSheet.create({
     height: 55,
     marginLeft: 15,
     borderRadius: 30,
-    backgroundColor: "red",
+    backgroundColor: "white",
     overflow: "hidden",
     flexDirection: "row",
     alignContent: "center",
+    boxShadow:
+      "box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;",
   },
   circle: {},
 });

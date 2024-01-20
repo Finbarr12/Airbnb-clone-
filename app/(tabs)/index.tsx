@@ -16,15 +16,4 @@ const index = () => {
   );
 };
 
-const styles = StyleSheet.create({
-  inpHold: {
-    width: "80%",
-    height: 55,
-    marginLeft: 15,
-    borderRadius: 30,
-    backgroundColor: "red",
-  },
-  circle: {},
-});
-
 export default index;
