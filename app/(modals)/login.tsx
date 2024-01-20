@@ -5,6 +5,7 @@ import {
   TextInput,
   TouchableOpacity,
 } from "react-native";
+import { AntDesign } from "@expo/vector-icons";
 import React from "react";
 
 const login = () => {
@@ -31,20 +32,26 @@ const login = () => {
         <Text>Or</Text>
         <Text style={styles.line}></Text>
       </View>
-      <View style={styles.googleBox}></View>
+      <View style={styles.googleBox}>
+        <AntDesign name="google" size={24} color="black" />
+        <Text>Sign up with Google</Text>
+      </View>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
   googleBox: {
-    width: "100%",
+    width: "99%",
     height: 40,
     borderWidth: 1,
     borderColor: "black",
     borderStyle: "solid",
     borderRadius: 15,
     marginTop: 25,
+    flexDirection: "row",
+    paddingLeft: 20,
+    alignItems: "center",
   },
 
   line: {
