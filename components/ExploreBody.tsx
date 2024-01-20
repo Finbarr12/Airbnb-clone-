@@ -13,8 +13,10 @@ const ExploreBody = () => {
       </View>
       <View style={styles.hotelhold}>
         <View>
-          <Text>Telgte,Germany</Text>
-          <Text>Individual Host</Text>
+          <Text style={{ fontWeight: "800", fontSize: 18 }}>
+            Telgte,Germany
+          </Text>
+          <Text style={{ fontSize: 14, marginTop: 5 }}>Individual Host</Text>
         </View>
         <View style={{ flexDirection: "row", alignItems: "center" }}>
           <Entypo name="star" size={24} color="black" />
