@@ -15,7 +15,10 @@ const ExploreHeader = () => {
               color="black"
               style={{ marginLeft: 10 }}
             />
-            <TextInput style={styles.inputText} />
+            <TextInput
+              style={styles.inputText}
+              placeholder="Where do you want to go...."
+            />
           </View>
           <View style={styles.circle}>
             <Ionicons name="options" size={24} color="black" />
@@ -31,6 +34,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "transparent",
     height: "100%",
+    paddingLeft: 7,
   },
   inpHold: {
     width: "80%",
@@ -40,7 +44,7 @@ const styles = StyleSheet.create({
     backgroundColor: "white",
     overflow: "hidden",
     flexDirection: "row",
-    alignContent: "center",
+    alignItems: "center",
     boxShadow:
       "box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;",
   },
