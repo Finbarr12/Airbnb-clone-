@@ -19,19 +19,39 @@ const login = () => {
       <Text style={{ marginTop: 20 }}>
         Already have an account? <Text style={{ color: "blue" }}>Sign in</Text>
       </Text>
-      <Text>
-        <Text style={styles.line}></Text> <Text>Or</Text>{" "}
+      <View
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          alignItems: "center",
+          marginTop: 20,
+        }}
+      >
         <Text style={styles.line}></Text>
-      </Text>
+        <Text>Or</Text>
+        <Text style={styles.line}></Text>
+      </View>
+      <View style={styles.googleBox}></View>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
+  googleBox: {
+    width: "100%",
+    height: 40,
+    borderWidth: 1,
+    borderColor: "black",
+    borderStyle: "solid",
+    borderRadius: 15,
+    marginTop: 25,
+  },
+
   line: {
-    width: 10,
+    width: "44%",
     height: 2,
     backgroundColor: "black",
+    margin: 9,
   },
   container: {
     flex: 1,
