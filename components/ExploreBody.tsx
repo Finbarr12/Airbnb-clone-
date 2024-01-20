@@ -21,7 +21,7 @@ const ExploreBody = () => {
           <Text>$400.00 night</Text>
         </View>
         <View style={{ flexDirection: "row", alignItems: "center" }}>
-          <Entypo name="star" size={24} color="black" />
+          <Entypo name="star" size={17} color="black" />
           <Text>4.95</Text>
         </View>
       </View>
