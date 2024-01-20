@@ -16,7 +16,7 @@ const ExploreBody = () => {
           <Text>Telgte,Germany</Text>
           <Text>Individual Host</Text>
         </View>
-        <View>
+        <View style={{ flexDirection: "row", alignItems: "center" }}>
           <Entypo name="star" size={24} color="black" />
           <Text>4.95</Text>
         </View>
@@ -39,8 +39,9 @@ const styles = StyleSheet.create({
     objectFit: "cover",
   },
   hotelhold: {
-    width: "100%",
     flexDirection: "row",
+    justifyContent: "space-between",
+    marginTop: 17,
   },
 });
 
