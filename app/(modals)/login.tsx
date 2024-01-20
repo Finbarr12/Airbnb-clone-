@@ -33,8 +33,16 @@ const login = () => {
         <Text style={styles.line}></Text>
       </View>
       <View style={styles.googleBox}>
-        <AntDesign name="google" size={24} color="black" />
-        <Text>Sign up with Google</Text>
+        <AntDesign name="google" size={24} color="red" />
+        <Text style={{ marginLeft: 15 }}>Sign in with Google</Text>
+      </View>
+      <View style={styles.googleBox}>
+        <AntDesign name="facebook-square" size={24} color="red" />
+        <Text style={{ marginLeft: 15 }}>Sign in with Facebook</Text>
+      </View>
+      <View style={styles.googleBox}>
+        <AntDesign name="twitter" size={24} color="red" />
+        <Text style={{ marginLeft: 15 }}>Sign in with Twitter</Text>
       </View>
     </View>
   );
@@ -42,7 +50,7 @@ const login = () => {
 
 const styles = StyleSheet.create({
   googleBox: {
-    width: "99%",
+    width: "100%",
     height: 40,
     borderWidth: 1,
     borderColor: "black",
@@ -50,8 +58,8 @@ const styles = StyleSheet.create({
     borderRadius: 15,
     marginTop: 25,
     flexDirection: "row",
-    paddingLeft: 20,
     alignItems: "center",
+    justifyContent: "center",
   },
 
   line: {
