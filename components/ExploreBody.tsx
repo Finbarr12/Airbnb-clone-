@@ -16,8 +16,10 @@ const ExploreBody = () => {
           <Text style={{ fontWeight: "800", fontSize: 18 }}>
             Telgte,Germany
           </Text>
-          <Text style={{ fontSize: 14, marginTop: 5 }}>Individual Host</Text>
-          <Text>24-29 Nov</Text>
+          <Text style={{ fontSize: 14, color: "#c9c7c7" }}>
+            Individual Host
+          </Text>
+          <Text style={{ fontSize: 14, color: "#c9c7c7" }}>24-29 Nov</Text>
           <Text>$400.00 night</Text>
         </View>
         <View style={{ flexDirection: "row", alignItems: "center" }}>
